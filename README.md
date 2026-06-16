@@ -55,7 +55,7 @@ Do not run the app directly from inside the ZIP, and do not move only the EXE by
 Try these in the URL box:
 
 ```text
-https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4
+https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
 ```
 
 ```text
