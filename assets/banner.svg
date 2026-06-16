@@ -1,0 +1,57 @@
+<svg width="1280" height="420" viewBox="0 0 1280 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#111827"/>
+      <stop offset="0.48" stop-color="#1B1B33"/>
+      <stop offset="1" stop-color="#0F172A"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(960 120) rotate(145) scale(470 250)">
+      <stop stop-color="#60A5FA" stop-opacity="0.65"/>
+      <stop offset="1" stop-color="#60A5FA" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(380 330) rotate(-20) scale(430 220)">
+      <stop stop-color="#A78BFA" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#A78BFA" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="-50" y="-50" width="1380" height="520" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="24" stdDeviation="32" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="420" rx="34" fill="url(#bg)"/>
+  <rect width="1280" height="420" rx="34" fill="url(#glow1)"/>
+  <rect width="1280" height="420" rx="34" fill="url(#glow2)"/>
+
+  <g opacity="0.34">
+    <circle cx="1078" cy="90" r="4" fill="white"/>
+    <circle cx="1126" cy="156" r="3" fill="white"/>
+    <circle cx="1028" cy="228" r="3" fill="white"/>
+    <circle cx="1184" cy="260" r="4" fill="white"/>
+    <circle cx="968" cy="318" r="2" fill="white"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="78" y="62" width="1124" height="296" rx="30" fill="#FFFFFF" fill-opacity="0.08" stroke="#FFFFFF" stroke-opacity="0.18"/>
+    <rect x="103" y="88" width="1074" height="244" rx="22" fill="#0B1220" fill-opacity="0.68"/>
+  </g>
+
+  <g transform="translate(132 130)">
+    <rect x="0" y="0" width="124" height="124" rx="30" fill="#FFFFFF" fill-opacity="0.1" stroke="#FFFFFF" stroke-opacity="0.18"/>
+    <path d="M48 37.5C48 32.806 53.09 29.887 57.124 32.281L89.624 51.781C93.536 54.112 93.536 59.888 89.624 62.219L57.124 81.719C53.09 84.113 48 81.194 48 76.5V37.5Z" fill="#E0F2FE"/>
+    <circle cx="62" cy="62" r="51" stroke="#60A5FA" stroke-opacity="0.58" stroke-width="4"/>
+  </g>
+
+  <text x="286" y="164" fill="#F8FAFC" font-family="Segoe UI, Arial, sans-serif" font-size="58" font-weight="700" letter-spacing="-1.2">Jasper Media Player</text>
+  <text x="288" y="213" fill="#CBD5E1" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="400">Windows 11 Fluent media player powered by real playback engines.</text>
+
+  <g transform="translate(288 252)" font-family="Segoe UI, Arial, sans-serif" font-size="18" fill="#E5E7EB">
+    <rect x="0" y="0" width="118" height="38" rx="19" fill="#2563EB" fill-opacity="0.72"/>
+    <text x="24" y="25">WinUI 3</text>
+    <rect x="132" y="0" width="105" height="38" rx="19" fill="#7C3AED" fill-opacity="0.72"/>
+    <text x="156" y="25">Mica</text>
+    <rect x="251" y="0" width="122" height="38" rx="19" fill="#0F766E" fill-opacity="0.72"/>
+    <text x="275" y="25">LibVLC</text>
+    <rect x="387" y="0" width="100" height="38" rx="19" fill="#334155" fill-opacity="0.84"/>
+    <text x="415" y="25">HLS</text>
+  </g>
+</svg>
