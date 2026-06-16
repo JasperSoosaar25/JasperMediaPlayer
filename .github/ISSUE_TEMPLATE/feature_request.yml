@@ -1,0 +1,48 @@
+name: Feature request
+description: Suggest an idea for Jasper Media Player
+title: "[Feature] "
+labels:
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Got an idea? Nice. Describe what you want and why it would help.
+
+  - type: textarea
+    id: idea
+    attributes:
+      label: Feature idea
+      placeholder: What should be added?
+    validations:
+      required: true
+
+  - type: textarea
+    id: why
+    attributes:
+      label: Why would this be useful?
+      placeholder: Explain the use case.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - UI / design
+        - Playback
+        - Streaming
+        - Build / release
+        - Documentation
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: Extra details
+      placeholder: Screenshots, mockups, examples, or links.
+    validations:
+      required: false
