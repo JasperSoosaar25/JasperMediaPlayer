@@ -55,11 +55,11 @@ Do not run the app directly from inside the ZIP, and do not move only the EXE by
 Try these in the URL box:
 
 ```text
-https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
+https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8
 ```
 
 ```text
-https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8
+https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
 ```
 
 Normal YouTube page links are not direct stream URLs, so they are not expected to work in the URL box.
