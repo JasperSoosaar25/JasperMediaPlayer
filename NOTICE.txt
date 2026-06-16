@@ -1,0 +1,9 @@
+Jasper Media Player starter
+
+This starter uses these packages when you build it:
+- Microsoft.WindowsAppSDK
+- LibVLCSharp
+- VideoLAN.LibVLC.Windows
+
+LibVLC/LibVLCSharp are VideoLAN projects. Keep their license notices when distributing your app.
+Do not ship this app using the VLC name, cone logo, or branding unless you have the rights to do so.
