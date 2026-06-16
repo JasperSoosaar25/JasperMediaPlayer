@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Download latest release
+    url: https://github.com/JasperSoosaar25/JasperMediaPlayer/releases/latest
+    about: Get the newest public build of Jasper Media Player.
